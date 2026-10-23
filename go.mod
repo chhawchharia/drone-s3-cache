@@ -2,6 +2,8 @@ module github.com/drone-plugins/drone-s3-cache
 
 go 1.19
 
+toolchain go1.26.10
+
 require (
 	github.com/drone-plugins/drone-plugin-lib v0.4.0
 	github.com/drone/drone-cache-lib v0.0.0-20200806063744-981868645a25
